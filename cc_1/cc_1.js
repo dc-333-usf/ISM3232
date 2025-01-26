@@ -49,7 +49,3 @@ bal();
 //Declare a variable for customer name and assign a value
 let customerName = "Jane";
 console.log("Hello " + customerName + ", welcome to our website!");
-
-//Task 5 
-//Declare a variable for login status and check access conditions.
-let isLoggedIn = true;
