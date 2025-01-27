@@ -26,3 +26,13 @@ let employee = {
 employee.department = "Tax";
 employee.position = "Manager";
 console.log(employee);
+
+//Task 4
+//Declare array with 3 objects, add to array.
+let customers = [
+    {name: "John", email: "johnster@gmail.com", purchaseAmount: 200},
+    {name: "Jane", email: "jane1965@gmail.com", purchaseAmount: 125},
+    {name: "Jimmy", email: "slimjim122@gmail.com", purchaseAmount: 540}
+];
+customers.push({name: "Janice", email: "XxjnicexX@gmail.com", purchaseAmount: 90});
+console.log(customers);
