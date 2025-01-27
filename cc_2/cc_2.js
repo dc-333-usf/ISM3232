@@ -14,3 +14,15 @@ let sum = scores.reduce((current, updated) => current + updated, 0);
 let average = sum / scores.length;
 console.log(`Scores: ${scores}
 Average: ${average}`);
+
+//Task 3
+//Declare object with properties, update property, add property
+let employee = {
+    name: "John",
+    age: "30",
+    department: "IT",
+    isActive: true
+};
+employee.department = "Tax";
+employee.position = "Manager";
+console.log(employee);
