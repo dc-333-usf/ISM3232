@@ -36,3 +36,19 @@ let customers = [
 ];
 customers.push({name: "Janice", email: "XxjnicexX@gmail.com", purchaseAmount: 90});
 console.log(customers);
+
+//Task 5
+//Declare an object with properties, create a function
+let order = {
+    orderId: "10229",
+    customerName: "John",
+    amount: 200
+}
+function calculateTax(order) {
+    tax = (order.amount * 0.1);
+    return tax;
+}
+console.log(`Order Id: ${order.orderId} 
+Customer: ${order.customerName}
+Amount: ${order.amount}
+Tax: ${calculateTax(order)}`);
